@@ -146,7 +146,58 @@ header, .getstart {
         padding: 22px;
 }
 
+/*****Professor *********/
+.teachers{
+    padding: 30px 20px;
+}
+.teachers-headline h1{
+    font-weight: 700;
+}
+.teachers-headline p{
+    font-size: 16px;
+}
+.pro-detail {
+    background: #21B573;
+    color: white;
+    transition: 0.5s;
+}
+.pro-detail > h5{
+    font-weight: 700;
+}
+.pro-detail > p{
+    font-size: 14px;
+}
+.all-professores{
+    padding: 20px 0;
+}
+.pro-sections{
+    transition: 0.5s;
+    box-shadow:  0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.pro-sections:hover .pro-detail {
+    background: #087b55;
+}
 
+
+/******Sign In now******/
+.what > h4{
+    font-size: 35px;
+    font-weight: bold;
+    color: #212529;
+}
+.sign-in-now > a{
+    background: #21B573;
+    padding: 14px 50px;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.join-now{
+    padding: 40px 0;
+    background: #F0FFF0;
+}
 
 /*******footer ******/
 
@@ -230,62 +281,6 @@ footer{
 .copyright > p{
     font-size: 12px;
     color: rgb(218, 218, 218);
-}
-
-
-/*****Professor *********/
-.teachers{
-    padding: 30px 20px;
-}
-.teachers-headline h1{
-    font-weight: 700;
-}
-.teachers-headline p{
-    font-size: 16px;
-}
-.pro-detail {
-    background: #21B573;
-    color: white;
-    transition: 0.5s;
-}
-.pro-detail > h5{
-    font-weight: 700;
-}
-.pro-detail > p{
-    font-size: 14px;
-}
-.all-professores{
-    padding: 20px 0;
-}
-.pro-sections{
-    transition: 0.5s;
-    box-shadow:  0px 5px 20px rgba(0, 0, 0, 0.2);
-}
-.pro-sections:hover .pro-detail {
-    background: #087b55;
-}
-
-
-
-
-/******Sign In now******/
-.what > h4{
-    font-size: 35px;
-    font-weight: bold;
-    color: #212529;
-}
-.sign-in-now > a{
-    background: #21B573;
-    padding: 14px 50px;
-    color: #fff;
-    border-radius: 40px;
-    text-decoration: none;
-    font-weight: 700;
-    transition: 0.4s;
-}
-.join-now{
-    padding: 40px 0;
-    background: #F0FFF0;
 }
 
 
