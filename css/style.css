@@ -1,0 +1,293 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header, .getstart {
+    padding: 20px 0 30px 0;
+    background: #F0FFF0;
+}
+.logo img{
+    max-width: 200px;
+}
+.bg-light {
+    background: transparent !important; 
+}
+.menu-green-button , .green-button{
+    padding: 10px 30px !important;
+    color: #ffffff !important;
+    border-radius: 33px;
+    background: #21B573;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.green-button:hover , .menu-green-button:hover , .course-button:hover , .sign-in-now > a:hover{
+    background: #118d55;
+    text-decoration: none;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.432);
+}
+#navbarSupportedContent > ul > li {
+    margin: 0 15px;
+    font-family: 'Poppins', sans-serif;
+}
+.getstart-text h1{
+    font-weight: bold;
+}
+.green-text{
+    color:  #21B573;
+}
+.info{
+    padding: 30px 0;
+}
+.get-start-img{
+    padding: 20px 0;
+}
+
+.boxs > div > img{
+    width:66px;
+    height: 80px;
+}
+.boxs {
+    background: #f0fff0c2;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.boxs:hover {
+    background: #fff;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+.boxs > div > h4{
+    color: #585859;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 14px;
+}
+.boxs > div > p{
+    color: #585859;
+    font-size: 12px;
+
+}
+.all-courses > .card-deck > .card {
+    padding-top: 20px;
+}
+.course{
+    padding: 30px 20px;
+}
+.course-title > h2 , .testimonials > .testi-head h1 {
+    font-weight: bold;
+    padding: 15px 0;
+}
+.all-courses > .card-deck > .card > img{
+    width: 306px;
+    margin: auto;
+
+}
+.all-courses > .card-deck > .card {
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+}
+.course-button{
+    padding: 9px 18px !important;
+    color: #ffffff !important;
+    border-radius: 33px;
+    background: #21B573;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.course-details > h5{
+    font-size: 18px;
+    font-weight: bold;
+    color: #585859
+}
+.course-details > p{
+    font-size: 14px;
+    color: #585859
+}
+.dates {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #585859;
+    font-weight: bold;
+}
+.testimanial{
+    padding: 20px 20px;
+}
+.testi-head h1{
+    font-weight: 700;
+}
+.review-slides{
+    padding: 40px 0;
+}
+.review-text1 p{
+    padding: 20px;
+}
+.carousel-indicators li {
+    background-color: gray;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.carousel-indicators .active {
+    background-color:  #21B573;
+}
+.review-text2 p{
+        padding: 22px;
+}
+footer{
+    background-color: #282531;
+    color: #fff;
+    padding-top: 10px;
+}
+.footer-text{
+    padding-bottom: 20px;
+}
+.footer-text h2{
+    font-size: 16px;
+    color: #21B573;
+    font-weight: 700;
+    text-shadow: 2px 2px 10px black;
+}
+#subcribe{
+    width: 200px;
+    padding-top: 10px;
+    display: block;
+}
+.sub-now{
+    background-color: #21B573;
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding: 7px 10px;
+    font-weight: 700;
+    margin-top: 5px;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px black;
+}
+#subcribe  > form > input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    color: #fff;
+}
+#subcribe  > form > label{
+    position: absolute;
+    top: 110px;
+    left: 20px;
+    pointer-events: none;
+    transition: .5s;
+}
+#subcribe  > form > input:focus ~ label,
+#subcribe  > form > input:valid ~ label  {
+    color: #21B573;;
+    top: 105px;
+    font-size: 8px;
+}
+
+
+
+
+
+.footer-links{
+    padding-top: 20px;
+}
+.footer-links > h4{
+    padding-left: 25%;
+    font-size: 14px;
+    font-weight: 700;
+}
+.footer-text > div > p{
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer-links > ul > li {
+    list-style: none;
+    
+}
+.footer-links > ul > li a {
+    color: rgb(236, 236, 236);
+    text-decoration: none;
+    font-size: 12px;
+}
+.copyright{
+    padding: 15px 0 5px 0;
+}
+.copyright > p{
+    font-size: 12px;
+    color: rgb(218, 218, 218);
+}
+
+/*****teachers *********/
+.teachers{
+    padding: 30px 20px;
+}
+.teachers-headline h1{
+    font-weight: 700;
+}
+.teachers-headline p{
+    font-size: 16px;
+}
+.pro-detail {
+    background: #21B573;
+    color: white;
+    transition: 0.5s;
+}
+.pro-detail > h5{
+    font-weight: 700;
+}
+.pro-detail > p{
+    font-size: 14px;
+}
+.all-professores{
+    padding: 20px 0;
+}
+.pro-sections{
+    transition: 0.5s;
+    box-shadow:  0px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.pro-sections:hover .pro-detail {
+    background: #087b55;
+}
+
+
+
+
+/******Sign In now******/
+.what > h4{
+    font-size: 35px;
+    font-weight: bold;
+    color: #212529;
+}
+.sign-in-now > a{
+    background: #21B573;
+    padding: 14px 50px;
+    color: #fff;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.join-now{
+    padding: 40px 0;
+    background: #F0FFF0;
+}
+
+
+
+
+
+@media screen and (max-width:980px){
+    
+.menu-green-button {
+    padding: 8px 10px !important;
+    border-radius: 14px;
+    background: #21B573;
+    font-size: 11px;
+}
+}
